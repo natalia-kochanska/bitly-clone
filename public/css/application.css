@@ -1,0 +1,94 @@
+
+
+
+
+.all {
+	text-align: center;
+	font-family: "Alegreya Sans";
+}
+
+h1 {
+	margin: 50px 0 5px 0;
+	color: rgb(100, 100, 100);
+	font-size: 165px;
+	text-shadow: 0px 0px 0px #ccc, 0 5px 10px;
+	
+}
+
+#original {
+	font-family: Georgia;
+	color: rgb(152, 152, 152);
+	font-size: 14px;
+	font-style: italic;
+	text-shadow: 0px 0px 0px #ccc, 0 0px 0px;
+}
+
+p {
+	color: rgb(135, 135, 135);
+	font-size: 50px;
+	margin: 0px 0 40px 0;
+	text-shadow: 0px 0px 0px #ccc, 0 1px 5px;
+}
+
+#under_header {
+	margin: 0px 0 60px 0;
+
+}
+
+
+form {
+	margin: 0px 0 60px 0;
+	font-family: Georgia;
+	color: rgb(135, 135, 135);
+	margin: 10px 0 80px 0;
+}
+ input { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    padding:633 x 21;
+    height: 40px;
+    width: 80px;
+    font-family: helvetica;
+    color: white;
+    font-size: 14px;
+   
+}
+#click {
+	color: rgb(102, 102, 102);
+	font-size: 17px;
+}
+#short {
+	color: black;
+
+}
+#ramka {
+	 width: 900px;
+	 padding-left: 20px;
+	 font-family: helvetica;
+	 font-size: 13px;
+	 color: black;
+}
+table {
+	margin: 60px 0 0px 0;
+    border-spacing: 10px;
+}
+
+th {
+	color: rgb(102, 102, 102);
+}
+
+td {
+    text-align: center;
+    padding: 0 30px 40px 50px;
+    color: rgb(152, 152, 152);
+    text-shadow: 0px 0px 3px #ccc, 0 0px 50px;
+}
+
+#msg {
+font-family: Georgia;
+font-size: 11px;
+font-style: italic;
+color: rgb(152, 152, 152);
+
+}

@@ -1,0 +1,34 @@
+<div id='msg'> <%= @msg if @msg%></div>
+
+<form action='/urls' method="post">
+
+	
+	<input id='ramka' type="text" placeholder='place a link' name="long_url">
+	<input type="submit" value="Shorten it">
+
+
+</form>
+
+
+
+		<table style="width:40s%">
+	<tr>
+		<th>Shorten</th>
+		<th>Share</th>
+		<th>Measure</th>
+	</tr>
+		<tr>
+		<td>Links are long. Shorten and brand the links you share, and keep track of them as they travel across the internet.</td>
+		<td>Optimize your links across every device and marketing channel, using Bitly or one of our partner publishing platforms.</td>
+		<td>Track individual link analytics, gather audience intelligence and measure campaign performance in one location.</td>
+	</tr>
+	
+		
+
+<% @posts.each do |url| %>
+	<ul>	
+	<a id='short' href="<%= url.shorten_url%>"><%= url.shorten_url%> </a> <a id='click'> this link has been clicked <%= url.counter%> times </a>
+	<p id='original' > <%= url.original_url%></p>
+	</ul>
+<% end %>
+<%= will_paginate @posts %>
